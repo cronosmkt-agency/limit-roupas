@@ -552,21 +552,21 @@ ${notes ? `*Observações:* ${notes}` : ""}`;
                 <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-black text-amber-300 border border-amber-400/40">
                   {renderIcon("ShoppingBag")}
                 </div>
-                <span className="text-lg font-bold text-slate-900">{c['name']}</span>
+                <span className="text-lg font-bold text-slate-900">Limit Boutique</span>
               </div>
               <p className="mt-3 text-xs leading-relaxed text-muted-foreground">
-                {c['meta_desc']}
+                Boutique de marcas de grife selecionadas, casual chic, casacos de inverno e serviço exclusivo de malinha condicional na Duque de Caxias, 147.
               </p>
             </div>
 
             <div>
               <h4 className="text-xs font-bold tracking-wider text-slate-900 uppercase">Endereço</h4>
-              <p className="mt-3 text-xs leading-relaxed text-muted-foreground">{c['address']}</p>
+              <p className="mt-3 text-xs leading-relaxed text-muted-foreground">{address}</p>
             </div>
 
             <div>
               <h4 className="text-xs font-bold tracking-wider text-slate-900 uppercase">Horários</h4>
-              <p className="mt-3 text-xs leading-relaxed text-muted-foreground">{c['hours']}</p>
+              <p className="mt-3 text-xs leading-relaxed text-muted-foreground">{hours}</p>
             </div>
 
             <div>
@@ -577,7 +577,7 @@ ${notes ? `*Observações:* ${notes}` : ""}`;
           </div>
 
           <div className="mt-12 border-t border-border pt-6 text-center text-xs text-muted-foreground">
-            © {new Date().getFullYear()} {c['name']} · Todos os direitos reservados · Desenvolvimento e Performance por Cronos Agency
+            © {new Date().getFullYear()} Limit Boutique · Todos os direitos reservados · Desenvolvimento e Performance por Cronos Agency
           </div>
         </div>
       </footer>
