@@ -68,16 +68,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Limit — Boutique de Moda & Grifes Multimarcas | Duque de Caxias" },
+      { title: "Limit Boutique — Grifes & Alta Moda Multimarcas | Várzea, Teresópolis" },
       { name: "description", content: "Boutique de marcas de grife selecionadas, casual chic, casacos de inverno e serviço exclusivo de malinha condicional na Duque de Caxias, 147." },
-      { property: "og:title", content: "Limit — Grifes Multimarcas em Teresópolis" },
+      { property: "og:title", content: "Limit Boutique — Grifes Multimarcas em Teresópolis" },
       { property: "og:description", content: "As melhores marcas de grife com a curadoria exclusiva que valoriza sua presença." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", type: "image/svg+xml", href: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='#0a0a0a'/><text x='50%' y='55%' text-anchor='middle' dominant-baseline='middle' fill='white' font-family='sans-serif' font-weight='800' font-size='40'>LB</text></svg>" },
+      { rel: "icon", type: "image/svg+xml", href: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%230A0A0A'/><text x='50%' y='55%' text-anchor='middle' dominant-baseline='middle' fill='%23C5A880' font-family='serif' font-weight='700' font-size='38'>LB</text></svg>" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
